@@ -39,7 +39,7 @@ sys_times-h sys_types-h sys_uio-h sys_un-h sys_utsname-h sys_wait-h termios-h un
 ./autoclean.sh
 ~~~
 
-## HOW TO USE
+## HOW TO USE (after build)
 The header file and static library are found in `lib` directiry. library name is `libgnu.a`.
 
 1. Add include path and library path in that location.
