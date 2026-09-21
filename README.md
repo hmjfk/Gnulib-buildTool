@@ -1,9 +1,11 @@
 # Gnulib buildTool
-If you want to use gnulib, autoconf is required.   
-However, it was quite a barrier to users using other build systems.  
-Because, gnulib and autoconf is were deeply integrated by Autoconf and m4 macro.  
-So, I solved this problem by  modify the sample that was attached to gnulib.  
+This build Tool provides a script to make Gnulib available on its own.  
+If you want to use gnulib, autoconf is required. However, it was quite a barrier to users using other build systems. Because, gnulib and autoconf is were deeply integrated by Autoconf and m4 macro.  
+So, I solved this problem by  modify the sample that was attached to gnulib.   
 
+## Build Requirements
+- POSIX Environment (POSIX compliance shell, POSIX command)
+- Autotools
 ## Build Step
 1. Add the following environment variables to the shell configuration file:
 ~~~
@@ -37,7 +39,7 @@ sys_times-h sys_types-h sys_uio-h sys_un-h sys_utsname-h sys_wait-h termios-h un
 ~~~
 
 ## HOW TO USE
-include dir and library path is 'lib'.
+The header file and static library are found in `./lib` directiry.
 
 ## LICNESE
 This repository licensed under CC0.
