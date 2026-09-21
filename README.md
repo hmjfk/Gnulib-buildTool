@@ -20,13 +20,13 @@ export GNULIB_SRCDIR=<dir>
 
 Example: Build libc provided by gnulib.
 ~~~
-./autogen.sh assert-h ctype-h errno-h float-h inttypes-h limits-h-h locale-h \
-math-h signal-h-h stdarg-h stdbit-h stdckdint-h stdcountof-h stddef-h stdint-h \
-stdio-h stdlib-h string-h threads-h time-h uchar-h wchar-h wctype-h arpa_inet-h \
-dirent-h endian-h fcntl-h fnmatch-h glob-h iconv-h langinfo-h netdb-h net_if-h \
-netinet_in-h poll-h pthread-h regex-h sched-h search-h spawn-h strings-h sys_msg-h \
-sys_resource-h sys_select-h sys_sem-h sys_shm-h sys_socket-h sys_stat-h sys_time-h \
-sys_times-h sys_types-h sys_uio-h sys_un-h sys_utsname-h sys_wait-h termios-h unistd-h
+./autogen.sh assert-h ctype-h errno-h float-h inttypes-h limits-h locale-h math-h \
+signal-h stdarg-h stdbit-h stdckdint-h stdcountof-h stddef-h stdint-h stdio-h \
+stdlib-h string-h threads-h time-h uchar-h wchar-h wctype-h arpa_inet-h dirent-h \
+endian fcntl-h fnmatch-h glob-h iconv-h langinfo-h netdb-h net_if-h netinet_in-h \
+poll-h pthread-h regex sched-h search-h spawn-h strings-h sys_msg-h sys_resource-h \
+sys_select-h sys_sem-h sys_shm-h sys_socket-h sys_stat-h sys_time-h sys_times-h \
+sys_types-h sys_uio-h sys_un-h sys_utsname-h sys_wait-h termios-h unistd-h
 ~~~
 
 3. build
