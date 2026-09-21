@@ -1,5 +1,5 @@
 # Gnulib buildTool
-This build tool provides a script to make Gnulib available on its own.  
+This build tool provide a script to make Gnulib available on its own.  
 If you want to use gnulib, autoconf is required. However, it was quite a barrier to users using other build systems. Because, gnulib and autoconf is were deeply integrated by Autoconf and m4 macro.  
 So, I solved this problem by modify the sample that was attached to gnulib.   
 
@@ -18,7 +18,7 @@ export GNULIB_SRCDIR=<dir>
 ~~~
 
 
-example: Build libc provided by gnulib.
+Example: Build libc provided by gnulib.
 ~~~
 ./autogen.sh assert-h ctype-h errno-h float-h inttypes-h limits-h-h locale-h \
 math-h signal-h-h stdarg-h stdbit-h stdckdint-h stdcountof-h stddef-h stdint-h \
