@@ -20,10 +20,9 @@ test -f "$GNULIB_TOOL" || {
   exit 1
 }
 
-$GNULIB_TOOL --lib=libgnu --source-base=lib --m4-base=gnulib-m4 \
-  --import $*
+$GNULIB_TOOL --source-base=lib --m4-base=gnulib-m4 --import $*
 mkdir -p build-aux
-$GNULIB_TOOL --copy-file build-aux/ar-lib; chmod a+x build-aux/ar-lib
+$GNULIB_TOOL --copy-file build-aux/ar-lib;       chmod a+x build-aux/ar-lib
 $GNULIB_TOOL --copy-file build-aux/config.guess; chmod a+x build-aux/config.guess
 $GNULIB_TOOL --copy-file build-aux/config.sub;   chmod a+x build-aux/config.sub
 
