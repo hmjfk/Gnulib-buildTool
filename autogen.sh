@@ -28,6 +28,6 @@ $GNULIB_TOOL --copy-file build-aux/config.sub;   chmod a+x build-aux/config.sub
 
 aclocal -I m4 -I gnulib-m4
 autoconf
-autoheader && touch config.h.in
+autoheader
 automake -a -c
 rm -rf autom4te.cache

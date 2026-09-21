@@ -2,7 +2,7 @@ dnl This file is in the public domain.
 dnl
 dnl Configuration file - processed by autoconf.
 
-AC_INIT([gnulib-build], [0])
+AC_INIT([Gnulib-buildTool], [0])
 AC_CONFIG_AUX_DIR([build-aux])
 AM_INIT_AUTOMAKE
 AC_CONFIG_HEADERS([lib/config.h])

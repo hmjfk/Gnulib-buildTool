@@ -1,0 +1,8 @@
+lib/
+gnulib-m4/
+build-aux/
+m4/
+!m4/Makefile.am
+
+Makefile
+Makefile.in
