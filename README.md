@@ -5,7 +5,7 @@ So, I solved this problem by  modify the sample that was attached to gnulib.
 
 ## Build Requirements
 - POSIX Environment (POSIX compliance shell, POSIX command)
-- Autotools
+- GNU Autotools
 ## Build Step
 1. Add the following environment variables to the shell configuration file:
 ~~~
@@ -20,7 +20,7 @@ export GNULIB_SRCDIR=<dir>
     example: Build libc provided by gnulib.
 ~~~
 ./autogen.sh assert-h ctype-h errno-h float-h inttypes-h limits-h-h locale-h \
-math-h signal-h-h stdarg-h stdbit-h stdckdint-h stdcountof-h-h stddef-h stdint-h \
+math-h signal-h-h stdarg-h stdbit-h stdckdint-h stdcountof-h stddef-h stdint-h \
 stdio-h stdlib-h string-h threads-h time-h uchar-h wchar-h wctype-h arpa_inet-h \
 dirent-h endian-h fcntl-h fnmatch-h glob-h iconv-h langinfo-h netdb-h net_if-h \
 netinet_in-h poll-h pthread-h regex-h sched-h search-h spawn-h strings-h sys_msg-h \
@@ -39,7 +39,9 @@ sys_times-h sys_types-h sys_uio-h sys_un-h sys_utsname-h sys_wait-h termios-h un
 ~~~
 
 ## HOW TO USE
-The header file and static library are found in `./lib` directiry.
+The header file and static library are found in `lib` directiry. library name is `libgnu.a`.
 
+1. Add include path and library path in that location.
+2. Automatic append `#include<config.h>` at the top of the source file. (Using build script)
 ## LICNESE
 This repository licensed under CC0.
