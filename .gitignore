@@ -4,5 +4,9 @@ build-aux/
 m4/
 !m4/Makefile.am
 
+aclocal.m4
+config.log
+config.status
+configure
 Makefile
 Makefile.in
