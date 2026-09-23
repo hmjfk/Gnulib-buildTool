@@ -40,7 +40,7 @@ sys_times-h sys_types-h sys_uio-h sys_un-h sys_utsname-h sys_wait-h termios-h un
 ~~~
 
 ## HOW TO USE (after build)
-The header file and static library are found in `lib` directiry. library name is `libgnu.a`.
+The header file and static library are found in `lib` directory. library name is `libgnu.a`.
 
 1. Add include path and library path in that location.
 2. Automatic append `#include<config.h>` at the top of the source file. (Using build script)
