@@ -17,4 +17,4 @@ rm -f m4/Makefile.in
 rm -fr build-aux
 
 # Generated or brought in by gnulib-tool.
-rm -rf lib gnulib-m4
+rm -rf lib

@@ -20,13 +20,13 @@ test -f "$GNULIB_TOOL" || {
   exit 1
 }
 
-$GNULIB_TOOL --m4-base=gnulib-m4 --import $*
+$GNULIB_TOOL --import $*
 mkdir -p build-aux
 $GNULIB_TOOL --copy-file build-aux/ar-lib;       chmod a+x build-aux/ar-lib
 $GNULIB_TOOL --copy-file build-aux/config.guess; chmod a+x build-aux/config.guess
 $GNULIB_TOOL --copy-file build-aux/config.sub;   chmod a+x build-aux/config.sub
 
-aclocal -I m4 -I gnulib-m4
+aclocal -I m4
 autoconf
 autoheader
 automake -a -c
